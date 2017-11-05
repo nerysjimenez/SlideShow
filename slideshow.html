@@ -1,0 +1,24 @@
+﻿<html>
+<head>
+</head>
+<script>
+var index = 0;
+pictures = new Array("hulk1.jpg","hulk2.jpg","hulk3.jpg","hulk4.jpg","hulk5.png","hulk6.jpg");
+
+function slideShow()
+{
+	document.pic.src=pictures[index % pictures.length];
+	index ++;
+	setTimeout("slideShow()",750);
+}
+</script>
+
+<body onload="slideShow();">
+<center>
+<h1> Hulk Slide Show</h1>
+<br/>
+<img src="hulk.jpg" name="pic" height="500" width="500">
+</center>
+</body>
+
+</html>
