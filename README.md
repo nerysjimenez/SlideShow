@@ -1,3 +1,3 @@
 # SlideShow
 
-slideshow.html is a presentation of hulk images using javascript.
+slideshow.html is a Javascript program that is a slideshow of hulk images.
